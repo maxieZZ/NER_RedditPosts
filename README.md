@@ -4,20 +4,20 @@
 
 As the only major controlled drug with increasing prescription rates in 2023, the rising popularity of stimulants like Adderall continues to spark debate over appropriate uses and long-term effects in adults (Jetson, 2023). To understand the impact of rising stimulant prescriptions from the perspective of users, I choose to extract and analyze posts from the subreddit r/adderall, a Reddit page dedicated to the discussion of ADHD drugs for recreational and medical use. Specifically, 6,417 relevant posts along with 13 associated features (including the overall sentiment of each post and user-derived tags) were collected from the subreddit to better understand user perspectives on medical and non-medical uses of stimulants and their perceived effects. In conducting exploratory and descriptive analysis on post features, general topics of discussion such as Medications, Questions, Co-Use, Harm Reduction, Healthcare, and Personal Experiences were identified. Relationships between features were also interrogated, with one example being an increase in negative relative to positive post sentiment during recent years. Using a topic modeling technique that leveraged embedding models and c-TF-IDF known as BERTopic, 61 additional topics were extracted from the text. These topics were more specific and contained information on physical side effects, psychological side effects, harm reduction strategies, stimulant alternatives, and personal stories detailing experiences such as barriers in accessibility or using stimulants to enhance productivity. The extracted BERTopic categories, user-derived Flair tags, and post sentiment findings were complimentary and aligned well with related literature. This approach helped to identify unmet needs surrounding prescription stimulant use, including the desire for information on ways to holistically manage ADHD symptoms rather than relying solely on pharmacological treatments like Adderall. With this NLP-based approach, we can begin to disambiguate controversies in current adult ADHD research, diagnosis, and clinical care to guide safe and appropriate prescribing practices.
 
-## Learning Objectives and Expected Outcomes
+## Learning Objectives
 
-• Become familiar with the process of using Natural Language Processing (NLP) to extract and filter data from online social media forums like Reddit.
-• Understand and conduct a Descriptive and Exploratory analysis of all relevant features in the Data Needs Model (DNM).
-• Use BERTopic, a topic modeling technique that leverages BERT embeddings and c-TF-IDF, to extract relevant topics from the textual data of posting activity on Reddit.
-• Translate results from Exploratory, Descriptive, and Topic Modeling analyses to applicable and actionable insights related to prescription stimulant use.
-• Develop coding skills in Python, working specifically with toolkits like pandas, genism, nltk, and the BERTopic modeling package. 
-The proposed outcomes of the practicum study included:
-• New pipelines to extract a maximum number of posts from a given subreddit.
-• Construct a Data Needs Model (DNM) using the available Reddit data with features that align with the investigative aim.
-• Create visuals for exploratory and descriptive analysis that capture relevant insights derived from the DNM and any associated relationships between features. 
-• Pipelines to preprocess and tokenize text for BERTopic topic modeling analysis.
-• Extract and evaluate themes that are relevant to the textual content of Reddit posts.
+* Use Natural Language Processing (NLP) to extract and filter data from online social media forums like Reddit.
+* Understand and conduct a Descriptive and Exploratory analysis of all relevant features in the Data Needs Model (DNM).
+* Use BERTopic, a topic modeling technique that leverages BERT embeddings and c-TF-IDF, to extract relevant topics from the textual data of posting activity on Reddit.
+* Translate results from Exploratory, Descriptive, and Topic Modeling analyses to applicable and actionable insights related to prescription stimulant use.
+* Develop coding skills in Python, working specifically with toolkits like pandas, genism, nltk, and the BERTopic modeling package. 
 
+## Proposed Outcomes
+
+* Automated pipeline to extract a maximum number of posts from a given subreddit.
+* Data Needs Model (DNM) using the available Reddit data with features that align with the investigative aim.
+* Visuals for exploratory and descriptive analysis that capture relevant insights derived from the DNM and any associated relationships between features. 
+* Pipelines to preprocess and tokenize text for BERTopic topic modeling analysis.
 
 <details>
 
